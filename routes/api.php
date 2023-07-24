@@ -16,3 +16,4 @@ use App\Http\Controllers\AuthController;
 */
 
 Route::post('register', [AuthController::class, 'register']);
+Route::post('get_token', [AuthController::class, 'getToken']);
